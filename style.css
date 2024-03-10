@@ -1,0 +1,23 @@
+.display-box{
+    height: 500px;
+    width: 300px;
+    background-color:grey;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.text{
+    color: red;
+}
+
+#input-value{
+    margin-left: 60px;
+    width: 300px;
+}
+
+.the-button{
+    width: 100px;
+    background-color: green;
+    border: 2px grey solid;
+    border-radius: 3px;
+}
