@@ -1,23 +1,49 @@
-.display-box{
-    height: 500px;
-    width: 300px;
-    background-color:grey;
+body{
+    background-color: #A1662F;
+}
+
+input:focus{
+    border:orange;
+    background-color: orange;
+}
+
+.first-container{
+    height:560px;
+    width: 480px;
+    background-color:black;
     margin-left: 60px;
-    margin-top: 20px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border: 1px solid grey;
+    border-radius: 8px;
+
+}
+ 
+.second-container{
+    height: 500px;
+    width: 380px;
+    background-color:white;
+    margin-left:45px;
+    margin-right: 40px;
+    
 }
 
 .text{
-    color: red;
+    color: black;
 }
 
 #input-value{
-    margin-left: 60px;
+    padding: 100px;
     width: 300px;
 }
 
 .the-button{
-    width: 100px;
-    background-color: green;
+    width: 120px;
+    background-color:black;
     border: 2px grey solid;
-    border-radius: 3px;
+    border-radius: 5px;
+    margin-left:80px;
+    height: 50px;
+    color:orange;
+    box-shadow: 10px 5px 5px burlywood;
 }
