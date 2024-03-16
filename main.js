@@ -14,26 +14,24 @@
 const array = []
 const list = document.querySelector("#task-list")
 
-
-
-
 function loadList(element) {
   const listItem = `<li>${element}</li>`
-    list.innerHTML += listItem
+  list.innerHTML += listItem
 }
-
-
-
 
 function addToCarts() {
   const item = document.querySelector("#input_value");
-  
+
   let value = item.value
   
   if (value) {
-    displayValue = array.push(value)
-  
+    array.push(value)
     array.forEach(element => loadList(element));
-
   }
+  array.pop()
+}
+
+
+function addToCard(params) {
+  
 }
