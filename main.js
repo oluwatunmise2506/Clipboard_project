@@ -16,7 +16,7 @@ const list = document.querySelector("#task-list")
 
 function loadList(element) {
   const listItem = `<li>${element}</li>`
-  list.innerHTML += listItem
+  list.insertAdjacentHTML("afterbegin", listItem)
 }
 
 function addToCarts() {
