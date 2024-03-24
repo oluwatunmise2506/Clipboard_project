@@ -16,7 +16,7 @@ const list = document.querySelector("#task-list")
 list.style.width = "10px"
 
 function loadList(element) {
-  const listItem = `<li><input type ="text" value = ${element}></li>`
+  const listItem = `<li>${element}</li>`
   list.insertAdjacentHTML("afterbegin", listItem)
 }
 
