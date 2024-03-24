@@ -13,9 +13,10 @@
 
 const array = []
 const list = document.querySelector("#task-list")
+list.style.width = "10px"
 
 function loadList(element) {
-  const listItem = `<li>${element}</li>`
+  const listItem = `<li><input type ="text" value = ${element}></li>`
   list.insertAdjacentHTML("afterbegin", listItem)
 }
 
@@ -32,6 +33,3 @@ function addToCarts() {
 }
 
 
-function addToCard(params) {
-  
-}
